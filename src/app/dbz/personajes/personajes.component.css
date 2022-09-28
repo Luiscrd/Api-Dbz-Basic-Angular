@@ -15,3 +15,21 @@ li{
   margin-top: 10px;
 }
 
+button{
+  border: none;
+  padding: 10px 23px;
+  background-color: #00B6B5;
+  color: #3E4141;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 30px auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover{
+  background-color: #3E4141;
+  color: #00B6B5;
+}
+
+

@@ -3,3 +3,4 @@
 <ul *ngIf="personajes">
   <li *ngFor="let personaje of personajes">{{ personaje.nombre }} - {{ personaje.poder | number }} pw</li>
 </ul>
+<button (click)="limpiar()">Limpiar</button>

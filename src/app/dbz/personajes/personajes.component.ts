@@ -16,6 +16,10 @@ export class PersonajesComponent {
 
   };
 
+  limpiar () {
+    this.dbzService.eliminarPersonajes();
+  }
+
   constructor(private dbzService: DbzService) {
 
   };
