@@ -1,0 +1,29 @@
+h3{
+  text-align: center;
+}
+
+input{
+  display: inline-block;
+  width: 56%;
+  margin: 10px 20%;
+  padding: 2%;
+  border-radius: 5px;
+  border: solid 1px rgb(184, 182, 182);
+}
+
+button{
+  border: none;
+  padding: 10px 23px;
+  background-color: #00B6B5;
+  color: #3E4141;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover{
+  background-color: #3E4141;
+  color: #00B6B5;
+}

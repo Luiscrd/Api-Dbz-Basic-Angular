@@ -1,0 +1,21 @@
+.logo-dragon{
+  position: relative;
+  width: 60%;
+  margin: 50px 20%;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+
+}
+
+.col{
+  flex-grow: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
